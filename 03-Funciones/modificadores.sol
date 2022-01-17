@@ -22,7 +22,6 @@ contract view_pure_payable{
         return _base**_exponente; 
     }
 
-
     //modificador payable 
     mapping (address => cartera) DineroCartera;
 
