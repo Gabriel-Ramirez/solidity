@@ -1,3 +1,4 @@
+// SPDX-License-Identifies: MIT
 //versiones
 pragma solidity >=0.4.4;
 

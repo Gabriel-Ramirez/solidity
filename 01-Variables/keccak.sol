@@ -1,3 +1,4 @@
+// SPDX-License-Identifies: MIT
 pragma solidity >=0.4.4; 
 pragma experimental ABIEncoderV2; 
 
@@ -17,4 +18,4 @@ contract hash{
     function calcularHash3(string memory _cadena, uint _k, address _direccion) public pure returns(bytes32){
         return keccak256(abi.encodePacked(_cadena, _k, _direccion, "hola", uint(2))); 
     }
-}
+} 
